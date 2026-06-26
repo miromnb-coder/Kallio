@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kallio Rakennus - konseptisivu rakennusyritykselle. Remontit, saneeraus, terassit ja pienrakennustyöt Uudellamaalla."
+    />
+    <title>Kallio Rakennus | Konseptisivu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="page-frame">
+      <header class="site-header">
+        <a class="logo" href="#top" aria-label="Kallio Rakennus etusivulle">
+          <span>KALLIO</span>
+          <small>RAKENNUS</small>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Päänavigaatio">
+          <a href="#palvelut">Palvelut</a>
+          <a href="#projektit">Projektit</a>
+          <a href="#yritys">Yritys</a>
+          <a href="#yhteys">Yhteys</a>
+        </nav>
+
+        <a class="header-cta" href="#yhteys">Pyydä tarjous</a>
+
+        <button class="menu-button" type="button" aria-label="Avaa valikko" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </header>
+
+      <nav class="mobile-menu" id="mobile-menu" aria-label="Mobiilivalikko">
+        <a href="#palvelut">Palvelut</a>
+        <a href="#projektit">Projektit</a>
+        <a href="#yritys">Yritys</a>
+        <a href="#yhteys">Yhteys</a>
+        <a class="mobile-cta" href="#yhteys">Pyydä tarjous</a>
+      </nav>
+
+      <main id="top">
+        <section class="hero section-pad">
+          <div class="hero-content reveal">
+            <h1>Luotettavaa remontti- ja rakennuspalvelua Uudellamaalla</h1>
+            <p>
+              Tarjoamme selkeää, laadukasta ja aikataulussa pysyvää remontti- ja rakennuspalvelua koteihin ja
+              pienempiin projekteihin. Meidän kanssamme rakentaminen on helppoa ja huoletonta.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#yhteys">Pyydä tarjous</a>
+              <a class="button button-secondary" href="#palvelut">Katso palvelut <span>→</span></a>
+            </div>
+            <div class="trust-row" aria-label="Yrityksen vahvuudet">
+              <div>
+                <span class="trust-icon">✓</span>
+                <span>Luotettavaa työtä</span>
+              </div>
+              <div>
+                <span class="trust-icon">▣</span>
+                <span>Aikataulussa</span>
+              </div>
+              <div>
+                <span class="trust-icon">◇</span>
+                <span>Laadukas lopputulos</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-image reveal">
+            <img
+              src="assets/hero-rakennus.png"
+              data-fallbacks="hero-rakennus.png,assets/modern-metsatyylinen-talo.png,modern-metsatyylinen-talo.png,assets/modern_metsätyylinen_talo_hämärässä.png,modern_metsätyylinen_talo_hämärässä.png"
+              alt="Moderni puutalo metsämaisemassa"
+            />
+          </div>
+        </section>
+
+        <section class="services section-pad compact" id="palvelut" aria-labelledby="services-heading">
+          <h2 id="services-heading" class="sr-only">Palvelut</h2>
+          <div class="service-grid">
+            <a class="service-card reveal" href="#yhteys">
+              <span class="service-icon">▰</span>
+              <div>
+                <h3>Remontit</h3>
+                <p>Keittiöt, kylpyhuoneet ja kokonaisremontit ammattitaidolla.</p>
+              </div>
+              <span class="arrow">→</span>
+            </a>
+            <a class="service-card reveal" href="#yhteys">
+              <span class="service-icon">▦</span>
+              <div>
+                <h3>Saneeraus</h3>
+                <p>Rakennuksen kunnostus ja modernisointi kestävästi.</p>
+              </div>
+              <span class="arrow">→</span>
+            </a>
+            <a class="service-card reveal" href="#yhteys">
+              <span class="service-icon">▤</span>
+              <div>
+                <h3>Terassit</h3>
+                <p>Kauniit ja kestävät terassit kotisi jatkeeksi.</p>
+              </div>
+              <span class="arrow">→</span>
+            </a>
+            <a class="service-card reveal" href="#yhteys">
+              <span class="service-icon">⌂</span>
+              <div>
+                <h3>Pienrakennustyöt</h3>
+                <p>Vajat, varastot, ulkorakennukset ja muut pienprojektit.</p>
+              </div>
+              <span class="arrow">→</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="split-grid section-pad compact" id="yritys">
+          <div class="panel why-panel reveal">
+            <h2>Miksi valita meidät?</h2>
+            <div class="why-grid">
+              <article>
+                <span class="line-icon">◇</span>
+                <h3>Luotettavaa työtä</h3>
+                <p>Pitäydymme sovituissa aikatauluissa ja kokoamme laadukkaasti.</p>
+              </article>
+              <article>
+                <span class="line-icon">▤</span>
+                <h3>Selkeä prosessi</h3>
+                <p>Läpinäkyvä hinnoittelu ja selkeä kommunikointi alusta loppuun.</p>
+              </article>
+              <article>
+                <span class="line-icon">☆</span>
+                <h3>Laadukas lopputulos</h3>
+                <p>Huolellinen viimeistely ja kestävät materiaalit, jotka näkyvät arjessa.</p>
+              </article>
+              <article>
+                <span class="line-icon">☎</span>
+                <h3>Yhteys helposti mobiililla</h3>
+                <p>Nopea yhteydenotto ja sujuva asiointi missä vain oletkin.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="panel projects-panel reveal" id="projektit">
+            <div class="panel-heading">
+              <h2>Esimerkkiprojekteja</h2>
+              <a href="#yhteys">Kysy omasta projektista →</a>
+            </div>
+            <div class="project-grid">
+              <article class="project-card">
+                <img
+                  src="assets/keittio-remontti.png"
+                  data-fallbacks="keittio-remontti.png,assets/modern-skandinaavinen-keittio.png,modern-skandinaavinen-keittio.png,assets/modern_skandinaavinen_keittiösaareke.png,modern_skandinaavinen_keittiösaareke.png"
+                  alt="Moderni keittiöremontti"
+                />
+                <div>
+                  <h3>Keittiöremontti, Espoo</h3>
+                  <p>Moderni keittiö vanhaan kotiin.</p>
+                </div>
+              </article>
+              <article class="project-card">
+                <img
+                  src="assets/terassi-pihatyot.png"
+                  data-fallbacks="terassi-pihatyot.png,assets/terassi.png,terassi.png,assets/modern-mokki-terassi.png,modern-mokki-terassi.png,assets/modern_mökki_metsässä_ja_terassilla.png,modern_mökki_metsässä_ja_terassilla.png"
+                  alt="Puuterassi metsämaisemassa"
+                />
+                <div>
+                  <h3>Terassi ja pihatyöt, Vantaa</h3>
+                  <p>Kestävät materiaalit ja viimeistely.</p>
+                </div>
+              </article>
+              <article class="project-card">
+                <img
+                  src="assets/kylpyhuonesaneeraus.png"
+                  data-fallbacks="kylpyhuonesaneeraus.png,assets/kylpyhuone.png,kylpyhuone.png,assets/luksusellinen-kylpyhuone.png,luksusellinen-kylpyhuone.png,assets/luksusellinen_kylpyhuone_ja_saunaelämyksestä.png,luksusellinen_kylpyhuone_ja_saunaelämyksestä.png"
+                  alt="Moderni kylpyhuonesaneeraus"
+                />
+                <div>
+                  <h3>Kylpyhuonesaneeraus, Helsinki</h3>
+                  <p>Tyylikäs ja toimiva kokonaisuus.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="split-grid section-pad compact lower-grid">
+          <div class="panel pricing-panel reveal">
+            <h2>Hinta-arvio suuntaa antavasti</h2>
+            <div class="price-grid">
+              <article class="price-card">
+                <h3>Pieni projekti</h3>
+                <p>esim. kodinhoitohuone, WC</p>
+                <strong>2 000–6 000 €</strong>
+                <span>Arvio projektin laajuuden mukaan.</span>
+              </article>
+              <article class="price-card featured">
+                <div class="label">Suosituin</div>
+                <h3>Laajempi remontti</h3>
+                <p>esim. keittiö tai kylpyhuone</p>
+                <strong>8 000–20 000 €</strong>
+                <span>Arvio projektin laajuuden mukaan.</span>
+              </article>
+              <article class="price-card">
+                <h3>Kokonaisremontti</h3>
+                <p>esim. omakotitalo</p>
+                <strong>20 000 € +</strong>
+                <span>Hinta määräytyy kohteen mukaan.</span>
+              </article>
+            </div>
+            <p class="price-note">Hinnat ovat suuntaa antavia. Pyydä maksuton arvio omalle projektille.</p>
+          </div>
+
+          <div class="panel contact-panel reveal" id="yhteys">
+            <div class="contact-copy">
+              <h2>Ota yhteyttä</h2>
+              <p>Kerro meille projektistasi, niin otamme sinuun yhteyttä mahdollisimman pian.</p>
+              <ul>
+                <li>Maksuton arviokäynti</li>
+                <li>Nopea vastaus</li>
+                <li>Ei sitoumuksia</li>
+              </ul>
+            </div>
+            <form class="contact-form">
+              <div class="form-row">
+                <input type="text" name="name" placeholder="Nimi" aria-label="Nimi" />
+                <input type="email" name="email" placeholder="Sähköposti" aria-label="Sähköposti" />
+              </div>
+              <input type="tel" name="phone" placeholder="Puhelin" aria-label="Puhelin" />
+              <textarea name="message" placeholder="Mitä tarvitset?" aria-label="Mitä tarvitset?"></textarea>
+              <button type="submit">Lähetä viesti <span>→</span></button>
+              <p class="form-message" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="contact-bar">
+        <a href="tel:+358401234567"><span>☎</span> 040 123 4567</a>
+        <a href="mailto:info@kalliorakennus.fi"><span>✉</span> info@kalliorakennus.fi</a>
+        <span><span>⌖</span> Uusimaa</span>
+        <span><span>◷</span> Ma–Pe 8.00–16.00</span>
+        <a class="footer-cta" href="#yhteys">Pyydä tarjous</a>
+      </footer>
+    </div>
+
+    <p class="concept-note">Konseptisivu — yritys, tekstit ja kuvat ovat esimerkkikäyttöön.</p>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

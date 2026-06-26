@@ -10,6 +10,7 @@
     <title>Kallio Rakennus | Konseptisivu</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="image" href="assets/hero-rakennus.PNG" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
@@ -84,7 +85,7 @@
           </div>
 
           <div class="hero-image reveal">
-            <img src="assets/hero-rakennus.PNG" alt="Moderni puutalo metsämaisemassa" />
+            <img src="assets/hero-rakennus.PNG" alt="Moderni puutalo metsämaisemassa" loading="eager" fetchpriority="high" />
           </div>
         </section>
 
@@ -176,21 +177,21 @@
             </div>
             <div class="project-grid">
               <article class="project-card">
-                <img src="assets/keittio-remontti.PNG" alt="Moderni keittiöremontti" />
+                <img src="assets/keittio-remontti.PNG" alt="Moderni keittiöremontti" loading="lazy" />
                 <div>
                   <h3>Keittiöremontti, Espoo</h3>
                   <p>Moderni keittiö vanhaan kotiin.</p>
                 </div>
               </article>
               <article class="project-card">
-                <img src="assets/terassi-pihatyot.PNG" alt="Puuterassi metsämaisemassa" />
+                <img src="assets/terassi-pihatyot.PNG" alt="Puuterassi metsämaisemassa" loading="lazy" />
                 <div>
                   <h3>Terassi ja pihatyöt, Vantaa</h3>
                   <p>Kestävät materiaalit ja viimeistely.</p>
                 </div>
               </article>
               <article class="project-card">
-                <img src="assets/kylpyhuonesaneeraus.PNG" alt="Moderni kylpyhuonesaneeraus" />
+                <img src="assets/kylpyhuonesaneeraus.PNG" alt="Moderni kylpyhuonesaneeraus" loading="lazy" />
                 <div>
                   <h3>Kylpyhuonesaneeraus, Helsinki</h3>
                   <p>Tyylikäs ja toimiva kokonaisuus.</p>
